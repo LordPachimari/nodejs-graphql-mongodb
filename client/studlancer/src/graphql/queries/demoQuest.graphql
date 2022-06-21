@@ -1,0 +1,5 @@
+query DemoQuest($_id: String!) {
+  demoQuest(_id: $_id) {
+    ...DemoQuest
+  }
+}

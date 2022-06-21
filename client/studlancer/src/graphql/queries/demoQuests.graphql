@@ -1,0 +1,6 @@
+query DemoQuests {
+  demoQuests {
+    _id
+    title
+  }
+}

@@ -1,0 +1,60 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+/* .contenteditable-block span:empty {
+  padding-right: 1em;
+} */
+
+bold-span {
+  font-weight: bold;
+}
+.content-block {
+  display: flex;
+  min-height: 20px;
+  white-space: pre-wrap;
+
+  color: black;
+
+  font-family: sans-serif;
+  cursor: text;
+}
+.default-default {
+  font-weight: 200;
+}
+.bold-default {
+  font-weight: 700;
+}
+.default-red {
+  color: red;
+}
+.bold-red {
+  color: red;
+  font-weight: 700;
+}
+.default-green {
+  color: green;
+}
+.bold-green {
+  color: green;
+  font-weight: 700;
+}
+.default-blue {
+  color: blue;
+}
+.bold-blue {
+  color: blue;
+  font-weight: 700;
+}

@@ -1,0 +1,4 @@
+fragment DemoQuest on DemoQuest {
+  _id
+  title
+}
